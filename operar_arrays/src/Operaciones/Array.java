@@ -11,6 +11,8 @@ public class Array {
 		System.out.println();
 		sumar_array(m);
 		System.out.println();
+		System.out.println();
+		System.out.println();
 		
 	}
 	
