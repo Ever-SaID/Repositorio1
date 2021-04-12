@@ -10,6 +10,7 @@ public class Array {
 		imprimir_array(m);
 		System.out.println();
 		sumar_array(m);
+		System.out.println();
 		
 	}
 	
