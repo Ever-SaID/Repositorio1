@@ -8,6 +8,9 @@ public class Array {
 		rellenar_array(m);
 		System.out.println();
 		imprimir_array(m);
+		System.out.println();
+		sumar_array(m);
+		
 	}
 	
 	 //Metodo que rellena  un Array
@@ -32,4 +35,15 @@ public class Array {
 					
 		}
 
+		//Metodo sumar elementos de un Array   
+		
+		public static void sumar_array(int x[]) {
+			int i=0;
+			int suma=0;
+	           for ( i=0;i<x.length;i++) {
+				 suma+= x[i];  
+				
+			}
+	                  System.out.print(suma);     
+		}
 }
