@@ -25,6 +25,15 @@ public class Array {
 			}
 			
 		}
+		//Metodo que rellena  un Array
+				public static void ArrayLLeno(int x[]) {
+					int i=0;
+					for ( i=0;i<x.length;i++) {
+						x[i]=(int)(Math.random()*20+1);
+						System.out.print(x[i]+" ");
+					}
+					
+				}
 		
 		//Metodo que imprime un Array
 		
